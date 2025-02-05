@@ -30,12 +30,13 @@ p{
 .sign-up-image{
     width: 400px;
     height: 200px;
+    border-radius: 12px;
 }
 .block img{
-    width: 144px;
+    width: 146px;
     height: auto;
     border-radius: 16px;
-    border: 3px solid #3882f6;
+    border: 2px solid slategrey;
 }
 .header-hero,.footer{
     background-color: #1f2937;
@@ -69,8 +70,8 @@ p{
 }
 .hero-block{
     display: flex;
-    justify-content: center;
-    gap: 80px;
+    justify-content: space-between;
+    align-items: center;
 }
 .hero-button{
     background-color: #3882f6;
@@ -152,7 +153,7 @@ p{
     padding-left: 345px;
     padding-right: 345px;
     color: white;
-    flex: 1 1 auto;
+    flex: 1 0 auto;
 }
 .action-text{
     font-size: 20px;
